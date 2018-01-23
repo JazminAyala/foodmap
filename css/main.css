@@ -1,0 +1,39 @@
+/*
+ /* Estilos de tu proyecto */
+
+
+ /*Stilos vista splash*/
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.content {
+    width:100%;
+    margin:0 auto;
+    height:1069px;
+    padding:10px;
+    background-color:#0faa88;
+    line-height:534px;
+		border:2px solid;
+        text-align:center;
+    }
+    h1{
+        color: #94d60f;
+    }
+    
+    .content2 {
+    display:none;
+    width:100%;
+    margin:0 auto;
+    padding:10px;
+    background-color: #0099CC;
+    line-height:100px;
+		border:2px solid;
+        text-align:center;
+    }
+    
+    img{
+       margin:2px;
+    }
+    

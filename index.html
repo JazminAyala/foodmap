@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <title>FoodMap</title>
+</head>
+<body>                      
+                  <!--Vista Splash -->           
+<div class="content"><h1 class="text-center"> Foodmap</h1> </div>
+                
+                  <!--Vista Principal -->
+    <div class="content2"><h1>Foodmap</h1>
+    <!-- Mapa-->
+    <section>
+    <div class="col-sm-12">  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6326044512043!2d-99.16754513552571!3d19.42827378688677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63c0856abdc87c9f!2sReforma+222+Parada+6A+Turibus!5e0!3m2!1ses!2smx!4v1516598030762" width:20em; height:20em; frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </section>
+    <!-- comida cerca de ti-->
+    <div class="row">
+      <div class="col-md-12 col-xs-12">
+        <h1>Comida cerca de ti</h1>
+      </div>
+    </div> 
+    <!--input-->
+  <div class="row">
+    <div class="col-md-4 col-lg-4 col-sm-offset-4 col-lg-offset-4">
+      <div class="input-group">
+      <input  id="filterRestaurant" type="text" class="form-control" placeholder="Search for Restauranate">
+      <span class="input-group-btn">
+     <!-- <a href="#window1" class="btn btn-default btn-lg" data-toggle="modal"> Go! </a>-->
+      <button class="btn btn-default" type="button">Go!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+<!--Imagenes -->
+<section>
+<div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <a href="#" class="img-thumbnail">
+          <img src="./assets/images/cooking.png" alt="..." width="100" height="80">
+          <img src="./assets/images/fish.jpg" alt="..." width="100" height="80">
+        </a>
+      </div>
+</div>
+</section>
+<section>
+<div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <a href="#" class="img-thumbnail">
+        <img src=" ./assets/images/food.jpg" alt="..." width="100" height="80">
+        <img src=" ./assets/images/mushrooms.jpg" alt="..." width="100" height="80">
+        <img src="./assets/images/pizza.jpg" alt="..." width="100" height="80">
+      </a>
+    </div>
+  </section>
+  
+    
+ 
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+          <!-- Base de datos -->
+<script src="./js/data.js"></script>
+          <!-- Aquí va tus archivos JS -->
+<script  type="text/javascript" src="./js/app.js"></script>
+          <!-- Vista splash  -->
+<script  type="text/javascript" src="./js/splash.js"></script>
+
+</body>
+</html>
